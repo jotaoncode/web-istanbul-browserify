@@ -1,0 +1,40 @@
+{
+  "name": "demo-web-babel",
+  "description": "web project based on karma and mocha and use es6",
+  "version": "0.0.0",
+  "homepage": "https://github.com/qiu8310/demo-web-babel",
+  "license": "MIT",
+  "main": "",
+  "author": {
+    "name": "Zhonglei Qiu",
+    "email": "qiuzhongleiabc@126.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/qiu8310/demo-web-babel"
+  },
+  "dependencies": {
+    "coveralls": "^2.11.2"
+  },
+  "devDependencies": {
+    "istanbul": "^0.3.15",
+    "karma": "^0.12.36",
+    "karma-browserify": "^4.0.0",
+    "karma-coverage": "douglasduteil/karma-coverage#next",
+    "karma-firefox-launcher": "^0.1.6",
+    "karma-mocha": "^0.1.10",
+    "karma-phantomjs-launcher": "^0.2.0",
+    "karma-sauce-launcher": "^0.2.11",
+    "karma-spec-reporter": "0.0.19",
+    "mocha": "^2.2.5",
+    "phantomjs": "^1.9.17",
+    "power-assert": "^0.11.0",
+    "should": "^7.0.1"
+  },
+  "scripts": {
+    "test": "rm -rf coverage && karma start karma.local.conf.js",
+    "test-sl": "karma start karma.saucelabs.conf.js",
+    "ci": "npm run test && npm run test-sl",
+    "coveralls": "cat coverage/Phantom*/lcov.info | ./node_modules/coveralls/bin/coveralls.js"
+  }
+}

@@ -1,0 +1,5 @@
+node_modules/
+temp/
+coverage/
+npm-debug.log
+sauce-connect.log
