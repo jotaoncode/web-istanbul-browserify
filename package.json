@@ -1,17 +1,17 @@
 {
-  "name": "demo-web-babel",
-  "description": "web project based on karma and mocha and use es6",
+  "name": "web-istanbul",
+  "description": "Web project boilerplate for istanbul coverage",
   "version": "0.0.0",
-  "homepage": "https://github.com/qiu8310/demo-web-babel",
+  "homepage": "https://github.com/jotaoncode/web-istanbul",
   "license": "MIT",
   "main": "",
   "author": {
-    "name": "Zhonglei Qiu",
-    "email": "qiuzhongleiabc@126.com"
+    "name": "Juan José García",
+    "email": "lgato8576@gmail.com"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/qiu8310/demo-web-babel"
+    "url": "https://github.com/jotaoncode/web-istanbul"
   },
   "dependencies": {
     "coveralls": "^2.11.2"
