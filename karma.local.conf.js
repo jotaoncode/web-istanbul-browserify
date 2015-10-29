@@ -53,10 +53,6 @@ module.exports = function(config) {
       includeAllSources: true
     },
 
-    browserify: {
-      debug: true
-    },
-
     // enable / disable colors in the output (reporters and logs)
     colors: true,
 
