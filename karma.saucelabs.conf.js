@@ -68,7 +68,6 @@ var key,
 if (process.env.TRAVIS) {
 
   cfg.logLevel = 'LOG_DEBUG';
-  //cfg.transports = [ 'websocket' ]; // 如果设置此选项会导致 SauceLabs 测试无法结束
 
   cfg.sauceLabs.build = 'TRAVIS #' + process.env.TRAVIS_BUILD_NUMBER + ' (' + process.env.TRAVIS_BUILD_ID + ')';
   cfg.sauceLabs.startConnect = false;
