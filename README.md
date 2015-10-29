@@ -14,6 +14,12 @@ I would like better code by testing it with coverage reports. In order to have a
 
 $ npm install
 
+## Implementation
+
+### Running tests
+
+$ npm test
+
 ## API
 
 No API here. Only front end development.
