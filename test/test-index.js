@@ -3,8 +3,8 @@ var assert = require('power-assert'),
     m = require('../src/index.js');
 
 
-describe('root module', function () {
-  it('should welcome users with `Hello World`', function () {
-    assert.ok(m.index('blah') === 'web');
+describe('Sample of coverage', function () {
+  it('Should make coverage on Index function only', function () {
+    assert.ok(m.index() === 'web');
   });
 });

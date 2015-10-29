@@ -1,16 +1,8 @@
-function index(something) {
-  if (something) {
-    return 'web';
-  } else {
-    return 'something else';
-  }
+function index() {
+  return 'web';
 }
 function anotherIndex() {
-  if (true) {
-    console.log('blah');
-  }else  {
-    console.log('bli');
-  }
+  return 'something else';
 }
 
 
