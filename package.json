@@ -9,6 +9,12 @@
     "name": "Juan José García",
     "email": "lgato8576@gmail.com"
   },
+  "keywords": {
+    "mocha",
+    "istanbul",
+    "phantomjs2",
+    "saucelabs"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/jotaoncode/web-istanbul"

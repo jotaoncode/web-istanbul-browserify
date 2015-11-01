@@ -1,10 +1,10 @@
 # Web-istanbul-karmajs-phantomjs
 
-Boilerplate istanbul gulp browserify karma phantomjs
+Boilerplate istanbul browserify karma phantomjs and mocha
 
 ## Synopsis
 
-This is a boilerplate for gulp browserify phantomjs karma.
+This is a boilerplate for browserify phantomjs karma and mocha.
 
 ## Motivation
 
