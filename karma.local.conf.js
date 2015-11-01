@@ -1,3 +1,5 @@
+var istanbul = require('browserify-istanbul');
+
 module.exports = function(config) {
   config.set({
     //logLevel: 'LOG_DEBUG',
@@ -31,7 +33,7 @@ module.exports = function(config) {
     exclude: [],
 
     preprocessors: {
-      'src/**/*.js': ['browserify', 'coverage'],
+      'src/**/*.js': ['browserify'],
       'test/**/*.js': ['browserify']
 
     },
@@ -60,7 +62,15 @@ module.exports = function(config) {
     // available browser launchers: https://npmjs.org/browse/keyword/karma-launcher
     browsers: [
       'PhantomJS2'//, 'Firefox'
-    ]
+    ],
 
+    // using browserify-istanbul as suggested by
+    // https://github.com/karma-runner/karma-coverage/issues/16
+    browserify: {
+      debug: true,
+      transform: [ 'brfs', istanbul({
+        ignore: ['**/node_modules/**', '**/test/**']
+      })]
+    }
   });
 };
