@@ -34,19 +34,13 @@ var browsers = {
 var key,
   defCfg = {},
   cfg = {
-    // all other options that are defined in
-    // local.karma.conf.js were elided for the
-    // purpose of this blog post.
     reporters: ['saucelabs', 'spec'],
     browsers: Object.keys(browsers),
     customLaunchers: browsers,
-    //logLevel: 'LOG_INFO',
     captureTimeout: 120000,
     browserNoActivityTimeout: 60000,
-
-    // https://docs.saucelabs.com/reference/test-configuration
     sauceLabs: {
-      testName: 'demo-web-babel',
+      testName: 'web-istanbul',
       build: 'local ' + Date.now(),
       recordLogs: true,
       recordVideo: false,
