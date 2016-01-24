@@ -1,3 +1,5 @@
+var anotherIndex = require('./index-es6.js');
+
 function index() {
   return 'web';
 }
