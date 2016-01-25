@@ -5,6 +5,7 @@ Boilerplate istanbul browserify karma phantomjs and mocha
 ## Synopsis
 
 This is a boilerplate for browserify phantomjs karma and mocha.
+This is not using gulp / grunt, adding this tasks runners depends on how many ambients you have to work for that particular project, so this only have an implementation in start file and then you can add gulp / grut in the way you need.
 
 ## Motivation
 
